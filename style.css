@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	width: 100%;
+	position: fixed;
+	background-color: #fff;
+	font-size: 100%;
+	letter-spacing: .2em;
+	padding: 0.2em 3%;
+	box-shadow: 5px 0 5px 0;
+	z-index: 99999;
+}
+.head_txt{
+	display: inline-block;
+	width: 20%;
+}
+.menu{
+	display: inline-block;
+	position: absolute;
+	width: 50%;
+	top: 30%;
+	right: 0%;
+	font-size: 110%;
+	letter-spacing: .2em;
+}
+.bmenu{
+	background-color: #fff;
+	border: none;
+	display: inline-block;
+	letter-spacing: .2em;
+	color: #000;
+	text-decoration:none;
+	padding-left: 10%;
+}
+.fontFamily{
+	font-family: 'Roboto', sans-serif;
+}
+.main_img{
+	background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+	background-size: cover;
+  width: 100%;
+  height: 0;
+  padding: 25% 0 25% 0;
+  margin: 0;
+}
+.textOnImg{
+	color: #fff;
+	font-size: 250%;
+	margin-left: 45%;
+	//font-family: 'Roboto', sans-serif;
+    letter-spacing: .1em;
+}
+main{
+	margin: 0 2%;
+}
+.text{
+	margin-top: 5%;
+	//font-family: 'Roboto', sans-serif;
+	font-size: 150%;
+	border-bottom: 1px solid #eee;
+}
+.house{
+	width: 23.5%;
+	height: 13vw;
+	background-size: 100% 100%;
+	display: inline-block;
+	margin-right: 1.2%; 
+	margin-bottom:2%; 
+}
+.house1{
+background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+}
+.house2{
+background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+}
+.house3{
+background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+}
+.house4{
+background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+}
+
+.TextHouse{
+	width: 45%;
+	background-color: #000;
+	color: #fff;
+	font-size: 110%;
+	//font-family: 'Roboto', sans-serif;
+	padding: 0.5em;
+	margin: 0;
+}
+.p1{
+	font-size: 100%;
+	//font-family: 'Roboto', sans-serif;
+}
+.people{
+	margin: 0;
+	width: 23%;
+	display: inline-block;
+	margin-right: 1%; 
+	margin-bottom:2%; 
+	//font-family: 'Roboto', sans-serif;
+}
+.gray{
+	width: 100% ;
+	filter: grayscale(80%);
+}
+
+.sh1{
+	font-size: 150%;
+	margin: 0;
+}
+.sh2{
+	color: #888;
+}
+.bc{
+	font-color: #888;
+	width: 100%;
+	font-size: 120%;
+	border: none;
+	padding: 0.5em;
+
+}
+fieldset{
+	border: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+input{
+	width: 100%;
+	font-size: 120%;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+}
+.inp{
+	width: 150px;
+	background-color: #000;
+	color: #fff;
+}
+footer{
+	background-color: #000;
+	color: #fff;
+	font-size: 100%;
+	padding: 2em;
+	text-align: center;
+}
+a{
+	color: #fff;
+}
+img{
+	width: 100%;
+	margin: 2% 0;
+}

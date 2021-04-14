@@ -2,7 +2,9 @@ body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 }
-
+p{
+	margin-top: 0;
+}
 header {
 	width: 100%;
 	position: fixed;
@@ -11,32 +13,43 @@ header {
 	letter-spacing: .2em;
 	padding: 0.2em 3%;
 	box-shadow: 5px 0 5px 0;
+	display: flex;
 	z-index: 99999;
+	justify-content: space-between;
+	align-items: center;
+}
+nav{
+	display: flex;
+	width: 30%;
+}
+.content{
+	margin-top: 58px;
+}
+.head_txt {
+	width: 20%;
+	margin: 15px 0;
 }
 
-.head_txt {
-	display: inline-block;
-	width: 20%;
+#project, #about, #contacts{
+	padding-top: 60px;
 }
 
 .menu {
-	display: inline-block;
-	position: absolute;
-	width: 50%;
-	top: 30%;
-	right: 0%;
+	display: flex;
 	font-size: 110%;
 	letter-spacing: .2em;
+	
 }
 
 .bmenu {
 	background-color: #fff;
 	border: none;
-	display: inline-block;
+	display: flex;
 	letter-spacing: .2em;
 	color: #000;
 	text-decoration: none;
-	padding-left: 3%;
+	padding-left: 5%;
+	/* align-content: center; */
 }
 
 .fontFamily {
@@ -65,7 +78,7 @@ main {
 }
 
 .text {
-	margin-top: 5%;
+	/* margin-top: 5%; */
 	//font-family: 'Roboto', sans-serif;
 	font-size: 150%;
 	border-bottom: 1px solid #eee;
